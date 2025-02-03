@@ -1,0 +1,38 @@
+.ux-ui-table {
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .ux-ui-table h2 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .ux-ui-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .ux-ui-table th, .ux-ui-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .ux-ui-table th {
+    background-color: #f4f4f4;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .ux-ui-table tr:nth-child(even) {
+    background-color: #f9f9f9;    
+    color: #333;
+  }
+  
+  .ux-ui-table tr:hover {
+    background-color: #636363;
+    color: #000000;
+  }
