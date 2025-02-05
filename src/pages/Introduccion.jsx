@@ -1,19 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import UXvsUI from '../components/UXvsUI';
-import './Introduccion.css';
+import './pages.css';
 
 function Introduccion() {
-  useEffect(() => {
-    let enlace = document.getElementById('tema');
-    if (!enlace) {
-      enlace = document.createElement('link');
-      enlace.id = 'tema';
-      enlace.rel = 'stylesheet';
-      document.head.appendChild(enlace);
-    }
-    enlace.href = 'dark.css';
-  }, []);
-
+ 
   return (
     <>
       <h2>Introducción a la Usabilidad</h2>

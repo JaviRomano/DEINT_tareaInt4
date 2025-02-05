@@ -1,40 +1,36 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Header from "./components/Header";  
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
+import Aside from "./components/Aside";
 import Introduccion from "./pages/Introduccion";
 import Accesibilidad from "./pages/Accesibilidad";
 import Interfaces from "./pages/Interfaces";
+import Navegacion from "./pages/Navegacion";
+import BuenasPracticas from "./pages/BuenasPracticas";
+import Testing from "./pages/Testing";
+import './index.css';
 
 function App() {
   return (
-    <>
-    <Header />
     <Router>
-      <main>
-      <aside>
-        <nav>
-          <ul>
-            <li><Link to="/">1. Introducción a la Usabilidad</Link></li>
-            <li><Link to="/accesibilidad">2. Accesibilidad y Diseño Inclusivo</Link></li>
-            <li><Link to="/interfaces">3. Diseño de Interfaces (UI) Eficientes</Link></li>
-          </ul>
-        </nav>
-      </aside>
-      {/* Te queremos mucho, Luis */}
-      <section> 
-        <Routes>
-          <Route path="/" element={<Introduccion />} />
-          <Route path="/accesibilidad" element={<Accesibilidad />} />
-          <Route path="/interfaces" element={<Interfaces/>} />
-        </Routes>
-      </section>
+      <Header />
+      <main className="layout">
+        <Aside />
 
-    </main>
+        <section className="content">
+          <Routes>
+            <Route path="/" element={<Introduccion />} />
+            <Route path="/accesibilidad" element={<Accesibilidad />} />
+            <Route path="/interfaces" element={<Interfaces />} />
+            <Route path="/navegacion" element={<Navegacion />} />
+            <Route path="/buenasPracticas" element={<BuenasPracticas />} />
+            <Route path="/testing" element={<Testing />} />
+          </Routes>
+        </section>
+      </main>
+      <Footer />
     </Router>
-    <Footer />
-    </>
-
-  )
+  );
 }
 
-export default App
+export default App;
