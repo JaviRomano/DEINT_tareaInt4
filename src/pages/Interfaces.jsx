@@ -4,6 +4,7 @@ import './pages.css';
 function Interfaces() {
   return (
     <>
+    <div className="page-container">
       <h2>🎨 Diseño de Interfaces (UI) Eficientes</h2>
       <p>
         Un buen diseño de UI no solo hace que la aplicación sea atractiva, sino que mejora la usabilidad y la experiencia del usuario. A continuación, exploramos algunos de los principios clave.
@@ -80,6 +81,7 @@ function Interfaces() {
       <p>
         Implementar estas prácticas garantizará una interfaz visualmente atractiva, accesible y eficiente para los usuarios.
       </p>
+      </div>
     </>
   );
 }

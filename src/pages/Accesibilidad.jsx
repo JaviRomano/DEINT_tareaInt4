@@ -6,6 +6,7 @@ function Accesibilidad() {
   return (
     <>
     <div>
+      <br></br>
       <h2>♿ Accesibilidad y Diseño Inclusivo</h2>
       <p>
         La accesibilidad es fundamental en el diseño de interfaces para garantizar que todas las personas, incluidas aquellas con discapacidades, puedan interactuar con facilidad en la aplicación.

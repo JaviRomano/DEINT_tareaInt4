@@ -1,8 +1,10 @@
 import React from 'react';
+import './pages.css';
 
 function Navegacion() {
   return (
     <>
+    <div className="page-container">
       <h2>🧭 Navegación y Flujo de Usuario</h2>
       <p>
         Una navegación bien estructurada es clave para una experiencia de usuario intuitiva. En React, utilizamos <b>React Router</b> en aplicaciones web y <b>React Navigation</b> en aplicaciones móviles con React Native.
@@ -107,8 +109,8 @@ function MyDrawer() {
       <p>
         Con estas recomendaciones, conseguiremos que la aplicación tenga una navegación fluida, intuitiva y accesible para los usuarios.
       </p>
-
-    </>
+      </div>
+    </>    
   );
 }
 

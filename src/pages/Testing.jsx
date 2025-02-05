@@ -2,7 +2,9 @@ import React from 'react';
 
 function Testing() {
   return (
-    <div>
+    <>   
+    <br></br>
+    <div className="page-container">
       <h2>🛠️ Testing de Usabilidad en React.js</h2>
       <p>
         Realizar pruebas de usabilidad en nuestras aplicaciones es clave para detectar problemas, mejorar la experiencia del usuario y garantizar accesibilidad. A continuación, exploramos diferentes métodos y herramientas para evaluar la usabilidad en aplicaciones desarrolladas con React.js.
@@ -59,6 +61,7 @@ function Testing() {
         Implementando estos métodos, podemos optimizar nuestras aplicaciones para garantizar una mejor experiencia de usuario y accesibilidad.
       </p>
     </div>
+    </>
   );
 }
 

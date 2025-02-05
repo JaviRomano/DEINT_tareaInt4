@@ -4,7 +4,8 @@ import './pages.css';
 function BuenasPracticas() {
   return (
     <>
-      <h2>✅ Buenas Prácticas en Desarrollo de Apps Usables</h2>
+    <br></br>
+      <h2>✅ Buenas Prácticas a la hora de desarrollar Apps</h2>
       <p>
         Aplicar buenas prácticas en el desarrollo de interfaces garantiza que los usuarios tengan una experiencia fluida, intuitiva y sin frustraciones. A continuación, exploramos tres principios clave.
       </p>
