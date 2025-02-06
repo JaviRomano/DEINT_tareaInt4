@@ -1,6 +1,4 @@
-# 📱 Manual Interactivo de Usabilidad en Apps Móviles
-
-![Banner](assets/images/banner.png)
+# 📱 Manual Interactivo de Usabilidad con React
 
 ## 📖 Descripción
 
@@ -13,7 +11,7 @@ Este proyecto es una aplicación interactiva desarrollada en **React** que funci
 - 🎨 **Diseño UI/UX y accesibilidad.**
 - 🔍 **Navegación fluida con React Navigation.**
 - ✅ **Buenas prácticas de usabilidad.**- 
-- 🛠️ **Buenas prácticas de usabilidad.**
+- 🛠️ **Testing.**
 
 ## Tecnologías utilizadas
 
@@ -36,7 +34,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/manual-usabilidad.git
+git clone https://github.com/JaviRomano/DEINT_tareaInt4.git
 
 # Moverse al directorio del proyecto
 cd manual-usabilidad
