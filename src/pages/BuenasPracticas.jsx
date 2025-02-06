@@ -1,10 +1,14 @@
 import React from 'react';
 import './pages.css';
+import practImg from '../img/pract.jpg';
 
 function BuenasPracticas() {
   return (
     <>
-    <br></br>
+      <div className="text-center">
+        <img src={practImg} alt="ui" className="img-fluid rounded" style={{ maxWidth: '500px', width: '100%', display: 'block', margin: '0 auto', }} />
+      </div>
+      <br></br>
       <h2>✅ Buenas Prácticas a la hora de desarrollar Apps</h2>
       <p>
         Aplicar buenas prácticas en el desarrollo de interfaces garantiza que los usuarios tengan una experiencia fluida, intuitiva y sin frustraciones. A continuación, exploramos tres principios clave.

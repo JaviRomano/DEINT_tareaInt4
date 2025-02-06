@@ -1,9 +1,13 @@
 import React from 'react';
 import './pages.css';
+import uiImg from '../img/ui.jpg';
 
 function Interfaces() {
-  return (
+  return (    
     <>
+    <div className="text-center">
+            <img src={uiImg} alt="ui" className="img-fluid rounded" style={{ maxWidth: '500px', width: '100%', display: 'block', margin: '0 auto', }}/>
+          </div>
     <div className="page-container">
       <h2>🎨 Diseño de Interfaces (UI) Eficientes</h2>
       <p>

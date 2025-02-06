@@ -1,12 +1,16 @@
 import React from 'react'
 import UXvsUI from '../components/UXvsUI';
 import './pages.css';
+import usabilidadImg from '../img/figure2.png';
 
 function Introduccion() {
- 
+
   return (
     <>
-    <br></br>
+      <div className="text-center">
+        <img src={usabilidadImg} alt="Usabilidad" className="img-fluid rounded" />
+      </div>
+      <br></br>
       <h2>Introducción a la Usabilidad</h2>
       <p> Entendemos el concepto de usabilidad como la facilidad con la que los usuarios pueden interactuar con un producto, sistema o aplicación para lograr sus objetivos de manera eficiente, efectiva y satisfactoria. En el contexto del diseño web y de aplicaciones, la usabilidad se centra en garantizar que la interfaz sea intuitiva, accesible y fácil de usar para los usuarios, independientemente de su nivel de experiencia.
         El objetivo principal consiste en mejorar la experiencia de usuario reduciendo la curva de aprendizaje y minimizar errores.

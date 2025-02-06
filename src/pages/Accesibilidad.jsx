@@ -1,12 +1,16 @@
 import React from 'react';
 import './pages.css';
+import accesibilidadImg from '../img/accesibilidad.jpg';
 
 function Accesibilidad() {
  
   return (
     <>
     <div>
-      <br></br>
+      <div className="text-center">
+              <img src={accesibilidadImg} alt="accesibilidad" className="img-fluid rounded"  style={{ maxWidth: '500px', width: '100%', display: 'block', margin: '0 auto', }}/>
+            </div>
+            <br></br>
       <h2>♿ Accesibilidad y Diseño Inclusivo</h2>
       <p>
         La accesibilidad es fundamental en el diseño de interfaces para garantizar que todas las personas, incluidas aquellas con discapacidades, puedan interactuar con facilidad en la aplicación.
