@@ -6,7 +6,7 @@ Este proyecto es una aplicación interactiva desarrollada en **React** que funci
 
 ## 🚀 Características
 
-- 📚 **Introducción** sobre usabilidad en apps móviles.
+- 📚 **Introducción** sobre usabilidad.
 - 🎮 **Accesibilidad** para ilustrar conceptos clave.
 - 🎨 **Diseño UI/UX y accesibilidad.**
 - 🔍 **Navegación fluida con React Navigation.**
